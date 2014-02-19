@@ -1,0 +1,126 @@
+﻿<Form FormDataOID="" Description="NIH TB Picture Vocabulary Test - Practice" AssessmentFormOID="" AccrualAssessmentModuleOID="" Accrual="" FormOrder="6" ConfigID="" Status="" DateStarted="" DateFinished="" StyleSheet="xsl/VOCAB.xsl" PresentationID="1" Engine="SequenceEngine" FormType="Short Form" CatFormTypeName="Item Bank/CAT (Computerized Adaptive Testing)" OriginatingProjectOID="678B6AAB-846D-4C84-BF24-C0913CE00A7F">
+  <Items>
+    
+    <!-- intro -->
+    <Item ItemDataOID="" FormItemOID="BDE97674-9350-4048-9127-E774130F7D81" ItemResponseOID="" Response="" ResponseTime="" ResponseDescription="" Position="" Section="1" Order="1" ID="VOCAB_INTRO" StyleSheet="xsl/ModuleIntro.xsl">
+        <Validations />
+        <Elements>
+            <Element ElementOID="900B2FB2-20C2-49D3-9436-A6B8D63FCC0B" Description="NIH Toolbox Picture Vocabulary Test" ElementOrder="1" ElementType="Label">
+                <Resources>
+                    <Resource ResourceOID="1A521FB9-0452-DF11-A216-0022681324E0" Description="NIH Toolbox Picture Vocabulary Test" Type="txt" />
+                </Resources>
+            </Element>
+        </Elements>
+    </Item>
+    
+    <!-- instruction 1 -->
+    <Item ItemDataOID="" FormItemOID="D8AD6460-493C-4C38-80C7-B9B8D63FBV2A" ItemResponseOID="" Response="" ResponseTime="" ResponseDescription="" Position="" Section="1" Order="2" ID="VOCAB_INSTR1" StyleSheet="xsl/ModuleIntro.xsl">
+        <Validations />
+        <Elements>
+            <Element ElementOID="83719A91-478E-4E5B-BD39-F03EA7A121DE" Description="" ElementOrder="0" ElementType="Label">
+                <Resources>
+                    <Resource ResourceOID="B2454728-F89F-4B1C-ABDC-1F3241DB93B1" Description="Let's look at some pictures. You'll hear a word and see four pictures on the screen. Touch the picture that means the same as the word that was said. Some words will be easy and some will be harder. If you are not sure of an answer, just make your best guess. If you need to hear a word again, touch the button that has a picture of an EAR, also called the PLAY AGAIN button. After you touch a picture, you will hear a new word and see more pictures." Type="txt" />
+                </Resources>
+            </Element>
+            <Element ElementOID="B2454728-478E-4E5B-BD39-G05EA7A131B1" Description="" ElementOrder="0" ElementType="Label">
+                <Resources>
+                    <Resource ResourceOID="B2458992-F89F-4B1C-ABDC-1F3241DB82C4" Description="If you are not sure of an answer, just make your best guess. If you make a mistake and want to change your last answer, touch the HAND, also called the GO BACK button. The pictures you just saw will reappear and you will hear the word again. Touch your choice, and then more words and pictures will appear. Tell me when you are ready to start." Type="txt" />
+                </Resources>
+            </Element>
+        </Elements>
+    </Item>
+    
+    <!-- practice 1 -->
+    <Item ItemDataOID="" FormItemOID="B4D7B60D-D159-4754-9E14-837EA18A2088" ItemResponseOID="" Response="" ResponseTime="" ResponseDescription="" Position="" Section="1" Order="3" ID="VOCAB_PRACT1" StyleSheet="">
+      <Validations />
+      <Elements>
+        <Element ElementOID="5337BD5D-EF69-456E-9DC6-50220E4B270B" Description="LASmp001" ElementOrder="1" ElementType="Stem">
+          <Resources>
+            <Resource ResourceOID="5F4A47E8-416A-DE11-B34B-000000000000" Description="Vocabinst3-7_2" Type="txt" />
+            <Resource ResourceOID="5F4A47E8-416A-DE11-B34B-000000000000" Description="Vocabinst3-7_3" Type="txt" />
+          </Resources>
+        </Element>
+        <Element ElementOID="43CBD86D-6B5B-44DD-98FF-B6DA7ECB25F0" Description="Container: 43CBD86D-6B5B-44DD-98FF-B6DA7ECB25F0" ElementOrder="2" ElementType="ResponseSet">
+          <Resources>
+            <Resource />
+          </Resources>
+          <Mappings>
+            <Map ElementOID="B7EB88B0-7A4C-4B95-A94F-552FFB3383E9" Description="0" Value="1" ItemResponseOID="B18C4164-2B04-4074-8562-D03BCC9572D7" FormItemOID="B4D7B60D-D159-4754-9E14-837EA18A2088" DataType="" Position="1">
+              <Resources>
+                <Resource ResourceOID="604A47E8-416A-DE11-B34B-000000000000" Description="LASmp001-3" Type="txt" />
+              </Resources>
+            </Map>
+            <Map ElementOID="F806C06E-2474-428C-B970-8A7EDB1CE078" Description="0" Value="2" ItemResponseOID="C9342849-A371-4CC0-8BCA-812225BA19E8" FormItemOID="B4D7B60D-D159-4754-9E14-837EA18A2088" DataType="" Position="2">
+              <Resources>
+                <Resource ResourceOID="634A47E8-416A-DE11-B34B-000000000000" Description="LASmp002-2" Type="txt" />
+              </Resources>
+            </Map>
+            <Map ElementOID="CFE7E6DB-6E3B-4A4E-9ED5-5F9C8D67467B" Description="0" Value="3" ItemResponseOID="0506DB53-0939-470A-BDCE-6F729219E9B8" FormItemOID="B4D7B60D-D159-4754-9E14-837EA18A2088" DataType="" Position="3">
+              <Resources>
+                <Resource ResourceOID="614A47E8-416A-DE11-B34B-000000000000" Description="LASmp001-1" Type="txt" />
+              </Resources>
+            </Map>
+            <Map ElementOID="7CC9BDEF-CC6F-428D-AC61-DDDFD536436B" Description="1" Value="4" ItemResponseOID="63A4456D-F49E-45B9-A622-2FC779E577D6" FormItemOID="B4D7B60D-D159-4754-9E14-837EA18A2088" DataType="" Position="4">
+              <Resources>
+                <Resource ResourceOID="644A47E8-416A-DE11-B34B-000000000000" Description="LASmp001-9" Type="txt" />
+              </Resources>
+            </Map>
+          </Mappings>
+        </Element>
+      </Elements>
+    </Item>
+    
+    <!-- practice 2 -->
+    <Item ItemDataOID="" FormItemOID="E1886A52-637A-48C9-BAA8-B7AD6DADA414" ItemResponseOID="" Response="" ResponseTime="" ResponseDescription="" Position="" Section="1" Order="4" ID="VOCAB_PRACT2" StyleSheet="">
+      <Validations />
+      <Elements>
+        <Element ElementOID="2AB35D79-DE18-4DE7-990B-160F87099239" Description="LASmp002" ElementOrder="1" ElementType="Stem">
+          <Resources>
+            <Resource ResourceOID="5C4A47E8-416A-DE11-B34B-000000000000" Description="Vocabinst3-7_6" Type="txt" />
+          </Resources>
+        </Element>
+        <Element ElementOID="CFDAB59E-B1F0-4F8A-8CE1-57B1BB84BADC" Description="Container: CFDAB59E-B1F0-4F8A-8CE1-57B1BB84BADC" ElementOrder="2" ElementType="ResponseSet">
+          <Resources>
+            <Resource />
+          </Resources>
+          <Mappings>
+            <Map ElementOID="5D0390C6-6F3E-47D0-A301-31EF087E3A9F" Description="0" Value="1" ItemResponseOID="7AEA926B-A907-404B-AC8A-91BF9D814D11" FormItemOID="E1886A52-637A-48C9-BAA8-B7AD6DADA414" DataType="" Position="1">
+              <Resources>
+                <Resource ResourceOID="5D4A47E8-416A-DE11-B34B-000000000000" Description="LASmp002-1" Type="txt" />
+              </Resources>
+            </Map>
+            <Map ElementOID="3598A390-93D1-43BB-88C4-3EB8F3D9664B" Description="0" Value="2" ItemResponseOID="D6DA1015-F684-4A4F-B545-0AE1A0EEE20E" FormItemOID="E1886A52-637A-48C9-BAA8-B7AD6DADA414" DataType="" Position="2">
+              <Resources>
+                <Resource ResourceOID="5E4A47E8-416A-DE11-B34B-000000000000" Description="LASmp002-2" Type="txt" />
+              </Resources>
+            </Map>
+            <Map ElementOID="E1D2BBC8-7801-4B0F-A0AF-74F2C1216227" Description="1" Value="3" ItemResponseOID="5C57DD93-27F3-4EB1-B904-AE73F21C0906" FormItemOID="E1886A52-637A-48C9-BAA8-B7AD6DADA414" DataType="" Position="3">
+              <Resources>
+                <Resource ResourceOID="624A47E8-416A-DE11-B34B-000000000000" Description="LASmp002-9" Type="txt" />
+              </Resources>
+            </Map>
+            <Map ElementOID="6452C926-4DA4-46A8-ABB1-FC277694905F" Description="0" Value="4" ItemResponseOID="DFCC8FE2-96A9-4F36-9AB9-97D97726DAFB" FormItemOID="E1886A52-637A-48C9-BAA8-B7AD6DADA414" DataType="" Position="4">
+              <Resources>
+                <Resource ResourceOID="654A47E8-416A-DE11-B34B-000000000000" Description="LASmp002-3" Type="txt" />
+              </Resources>
+            </Map>
+          </Mappings>
+        </Element>
+      </Elements>
+    </Item>
+    
+    <!-- instruction 2 -->
+    <Item ItemDataOID="" FormItemOID="D8AD7787-503C-4C38-80C7-B9B8D63FBG61" ItemResponseOID="" Response="" ResponseTime="" ResponseDescription="" Position="" Section="1" Order="5" ID="VOCAB_INSTR2" StyleSheet="xsl/ModuleIntro.xsl">
+        <Validations />
+        <Elements>
+            <Element ElementOID="00819A91-478E-4E5B-BD39-F03EA7A1008B" Description="" ElementOrder="0" ElementType="Label">
+                <Resources>
+                    <Resource ResourceOID="B3454728-F89F-4B1C-ABDC-1F3212DEDC32" Description="Now, let's try some more." Type="txt" />
+                    <Resource ResourceOID="B3454728-F89F-4B1C-ABDC-1F3241DBCB51" Description="Remember, you will hear a voice say a word and then you will see four pictures. One of the pictures will show what the word means. Touch that picture and you will hear a new word and see four more pictures. Again, touch the picture that shows what the word means. If you don't know, make your best guess. Any questions?" Type="txt" />
+                </Resources>
+            </Element>
+        </Elements>
+    </Item>
+    
+  </Items>
+</Form>
